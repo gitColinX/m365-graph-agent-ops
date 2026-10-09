@@ -1,4 +1,4 @@
-# The delete that went wider than one user, and the two minutes after
+# App role delete that removed a group's access
 
 **Date:** 2026-09-25, late evening into just after midnight.
 **Tools:** [`tools/Start-QueueWorker.ps1`](../../tools/Start-QueueWorker.ps1); the fix is [`tools/Remove-UserAppRoleAssignment.ps1`](../../tools/Remove-UserAppRoleAssignment.ps1).

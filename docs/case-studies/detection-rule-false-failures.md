@@ -1,4 +1,4 @@
-# 707 failed installs, 40 real ones: a detection rule versus an auto-updating agent
+# Win32 detection rule false failures
 
 **Date:** 2026-09-11. **Tool:** [`tools/Set-IntuneWin32AppField.ps1`](../../tools/Set-IntuneWin32AppField.ps1) (the rewrite of what I ran).
 **Status:** [built, ran on real tickets]

@@ -1,4 +1,4 @@
-# Sign-in for an agent that must never hold a password
+# Device code sign-in
 
 Everything in this repo signs in through the files in this folder. This page
 is the why.

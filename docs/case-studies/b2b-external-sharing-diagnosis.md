@@ -1,4 +1,4 @@
-# "External sharing is disabled": proving whose side a B2B failure is on
+# B2B sharing failure on the partner's side
 
 **Date:** 2026-09-21. **Tools:** the read-only Graph runner with a cached device code token ([`tools/Invoke-GraphRead.ps1`](../../tools/Invoke-GraphRead.ps1) is the rewrite).
 **Status:** [built, ran on real tickets]

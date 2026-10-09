@@ -1,4 +1,4 @@
-# Scopes, roles, and what actually limits the agent
+# Scopes and roles
 
 ## The short version
 

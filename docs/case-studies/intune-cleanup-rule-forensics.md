@@ -1,4 +1,4 @@
-# Who deleted this laptop from Intune? Nobody did.
+# Intune devices removed by the cleanup rule
 
 **Date:** 2026-09-18. **Tool:** [`tools/Get-IntuneDeviceHistory.ps1`](../../tools/Get-IntuneDeviceHistory.ps1).
 **Status:** [built, ran on real tickets]
