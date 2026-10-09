@@ -1,0 +1,7 @@
+{
+  "value": [
+    { "id": "00000000-0000-4000-8000-000000000003", "displayName": "Test User 03" },
+    { "id": "00000000-0000-4000-8000-000000000004", "displayName": "Test User 04" }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/users?$skiptoken=synthetic-page-3"
+}

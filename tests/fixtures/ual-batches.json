@@ -1,0 +1,19 @@
+[
+  [
+    { "Identity": "rec-01", "ResultIndex": 1, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"SharingSet\"}" },
+    { "Identity": "rec-02", "ResultIndex": 2, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"SharingInvitationCreated\"}" },
+    { "Identity": "rec-03", "ResultIndex": 3, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"AnonymousLinkCreated\"}" }
+  ],
+  [
+    { "Identity": "rec-03", "ResultIndex": 3, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"AnonymousLinkCreated\"}" },
+    { "Identity": "rec-04", "ResultIndex": 4, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"SharingSet\"}" },
+    { "Identity": "rec-05", "ResultIndex": 5, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"SharingSet\"}" }
+  ],
+  [
+    { "Identity": "rec-06", "ResultIndex": 6, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"SharingSet\"}" },
+    { "Identity": "rec-07", "ResultIndex": 7, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{\"Operation\":\"SharingRevoked\"}" }
+  ],
+  [
+    { "Identity": "rec-99", "ResultIndex": 99, "ResultCount": 7, "RecordType": "SharePointSharingOperation", "AuditData": "{}" }
+  ]
+]

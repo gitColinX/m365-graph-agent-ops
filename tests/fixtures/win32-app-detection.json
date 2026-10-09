@@ -1,0 +1,52 @@
+{
+  "about": "Synthetic Win32 app. Its shape follows how Intune returned a real app after a detection rule PATCH: the detection rule comes back with server defaults added, and the 'detection' entries in 'rules' are rewritten to match. All names, ids and paths here are made up.",
+  "app": {
+    "@odata.type": "#microsoft.graph.win32LobApp",
+    "id": "00000000-0000-4000-8000-0000000000f1",
+    "displayName": "Remote Support Agent",
+    "description": "",
+    "publisher": "Vendor",
+    "developer": "",
+    "owner": "",
+    "notes": "",
+    "allowAvailableUninstall": true,
+    "isFeatured": false,
+    "installCommandLine": "msiexec /i \"agent.msi\" /qn /norestart",
+    "uninstallCommandLine": "msiexec /x \"{00000000-0000-0000-0000-0000000000AA}\" /qn",
+    "detectionRules": [
+      {
+        "@odata.type": "#microsoft.graph.win32LobAppProductCodeDetection",
+        "productCode": "{00000000-0000-0000-0000-0000000000AA}",
+        "productVersionOperator": "notConfigured",
+        "productVersion": null
+      }
+    ],
+    "requirementRules": [],
+    "rules": [
+      {
+        "@odata.type": "#microsoft.graph.win32LobAppProductCodeRule",
+        "ruleType": "detection",
+        "productCode": "{00000000-0000-0000-0000-0000000000AA}",
+        "productVersionOperator": "notConfigured",
+        "productVersion": null
+      },
+      {
+        "@odata.type": "#microsoft.graph.win32LobAppRegistryRule",
+        "ruleType": "requirement",
+        "check32BitOn64System": false,
+        "keyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\ExampleVendor",
+        "valueName": "Ready",
+        "operationType": "exists",
+        "operator": "notConfigured",
+        "comparisonValue": null
+      }
+    ]
+  },
+  "serverDefaults": {
+    "#microsoft.graph.win32LobAppFileSystemDetection": {
+      "check32BitOn64System": false,
+      "operator": "notConfigured",
+      "detectionValue": null
+    }
+  }
+}

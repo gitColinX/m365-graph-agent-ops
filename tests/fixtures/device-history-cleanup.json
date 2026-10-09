@@ -1,0 +1,15 @@
+{
+  "now": "2026-09-18T16:40:00Z",
+  "auditWindowStart": "2025-09-18T00:00:00Z",
+  "managedDevices": [],
+  "entraDevices": [
+    { "id": "00000000-0000-4000-8000-0000000000d1", "displayName": "LT-SN0001", "approximateLastSignInDateTime": "2026-05-10T14:00:00Z", "isManaged": true }
+  ],
+  "autopilot": [
+    { "id": "00000000-0000-4000-8000-0000000000a1", "serialNumber": "SN0001", "lastContactedDateTime": "0001-01-01T00:00:00Z", "enrollmentState": "notContacted", "managedDeviceId": "00000000-0000-4000-8000-0000000000e1" }
+  ],
+  "cleanupRules": [
+    { "id": "00000000-0000-4000-8000-0000000000c1", "displayName": "Inactive devices", "deviceInactivityBeforeRetirementInDays": 90 }
+  ],
+  "adminEvents": []
+}

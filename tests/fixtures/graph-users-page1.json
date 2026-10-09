@@ -1,0 +1,8 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
+  "value": [
+    { "id": "00000000-0000-4000-8000-000000000001", "displayName": "Test User 01" },
+    { "id": "00000000-0000-4000-8000-000000000002", "displayName": "Test User 02" }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/users?$skiptoken=synthetic-page-2"
+}

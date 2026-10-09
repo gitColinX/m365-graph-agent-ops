@@ -1,0 +1,8 @@
+{
+  "user_code": "TESTCODE1",
+  "device_code": "synthetic-device-code-not-real",
+  "verification_uri": "https://microsoft.com/devicelogin",
+  "expires_in": 900,
+  "interval": 5,
+  "message": "Synthetic response for tests."
+}

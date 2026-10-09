@@ -1,0 +1,8 @@
+{
+  "token_type": "Bearer",
+  "scope": "https://graph.microsoft.com/User.Read.All https://graph.microsoft.com/Group.Read.All https://graph.microsoft.com/GroupMember.Read.All https://graph.microsoft.com/Device.Read.All https://graph.microsoft.com/Directory.Read.All https://graph.microsoft.com/AuditLog.Read.All https://graph.microsoft.com/Application.Read.All https://graph.microsoft.com/Policy.Read.All https://graph.microsoft.com/Organization.Read.All https://graph.microsoft.com/Reports.Read.All https://graph.microsoft.com/RoleManagement.Read.Directory https://graph.microsoft.com/Team.ReadBasic.All",
+  "expires_in": 4199,
+  "ext_expires_in": 4199,
+  "access_token": "synthetic-access-token-for-tests-only",
+  "refresh_token": "synthetic-refresh-token-that-must-be-discarded"
+}

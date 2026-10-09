@@ -1,0 +1,41 @@
+# Tool output: device names, UPNs, object ids, exports. Never commit.
+out/
+work/
+**/queue/
+*.out.txt
+*.done
+STOP
+worker-status.txt
+worker-transcript-*.txt
+usercode*.txt
+status.txt
+child-stdout.txt
+child-stderr.txt
+
+# Token caches and anything key-shaped
+*.dpapi
+*.dpapi.meta.json
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+.env
+.env.*
+*.secret*
+secrets/
+.secrets/
+
+# Exports and logs
+*.csv
+*.log
+*.xlsx
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
